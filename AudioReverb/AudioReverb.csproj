@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="2.2.1">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="NAudio.Core" Version="2.2.1">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="NAudio.WinMM" Version="2.2.1">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="NAudio.Wasapi" Version="2.2.1">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+    <PackageReference Include="NAudio.WinForms" Version="2.2.1">
+      <Private>false</Private>
+      <ExcludeAssets>runtime</ExcludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <PropertyGroup>
+      <NAudioSupportDir>$(TargetDir)NAudioSupport\</NAudioSupportDir>
+    </PropertyGroup>
+    <MakeDir Directories="$(AudioSupportDir)" />
+    <ItemGroup>
+      <NAudioFiles Include="$(NuGetPackageRoot)naudio\2.2.1\lib\net6.0\NAudio.dll" />
+      <NAudioFiles Include="$(NuGetPackageRoot)naudio.core\2.2.1\lib\netstandard2.0\NAudio.Core.dll" />
+      <NAudioFiles Include="$(NuGetPackageRoot)naudio.winmm\2.2.1\lib\netstandard2.0\NAudio.WinMM.dll" />
+      <NAudioFiles Include="$(NuGetPackageRoot)naudio.wasapi\2.2.1\lib\netstandard2.0\NAudio.Wasapi.dll" />
+      <NAudioFiles Include="$(NuGetPackageRoot)naudio.winforms\2.2.1\lib\netcoreapp3.1\NAudio.WinForms.dll" />
+    </ItemGroup>
+    <Copy SourceFiles="@(NAudioFiles)" DestinationFolder="$(NAudioSupportDir)" />
+  </Target>
+
+</Project>

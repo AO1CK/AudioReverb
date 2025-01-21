@@ -1,0 +1,17 @@
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.exe
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.dll.config
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.deps.json
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.runtimeconfig.json
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.dll
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\bin\Release\net6.0-windows\AudioReverb.pdb
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.Form1.resources
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.Properties.Resources.resources
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.csproj.GenerateResource.cache
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.dll
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\refint\AudioReverb.dll
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.pdb
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\AudioReverb.genruntimeconfig.cache
+C:\Users\Administrator\Desktop\AudioReverb\AudioReverb\obj\Release\net6.0-windows\ref\AudioReverb.dll
